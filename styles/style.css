@@ -1,0 +1,243 @@
+html {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+#logo a {
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo a:hover {
+    transform: scale(1.05);
+}
+
+header {
+    background-color: #ffc64d;
+
+    /* CSS MOBILE */
+
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    padding: 5px;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav ul {
+    /* CSS MOBILE */
+    display: inline-block;
+    padding-bottom: 0px;
+
+    justify-content: center;
+    list-style-type: none;
+    /* display: flex;
+    flex-direction: row; */
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+nav ul li {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: lowercase;
+    text-align: center;
+    margin: 5px;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: #ffa34d;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    transition: color .5s;
+    transition: background-color .5s;
+}
+
+nav ul li a:hover {
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #e86f5f;
+}
+
+.currentPage a {
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #e86f5f;
+}
+
+#banner {
+    text-align: center;
+    width: 100%;
+    background-color: #d88de2;
+    font-weight: bold;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#mapLink {
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#mapLink a {
+    /* padding-right:20%;
+    padding-left:20%; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #c9f07f;
+    text-decoration: none;
+    transition: color .5s;
+    color: black;
+    transition: background-color .5s;
+    display: block;
+    min-width: 350px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mapLink a:hover {
+    color: white;
+}
+
+#mapLink a:hover {
+    background-color: #6ccb52;
+}
+
+#festivalTimes ul {
+    list-style: none;
+    padding: 0;
+}
+
+#festivalTimes ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+
+div#transportationInfo h4 {
+    text-align: center;
+}
+
+summary {
+    text-align: center;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#entSchedule ul {
+    list-style: none;
+    width: 250px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vendors ul {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    column-count: 1;
+}
+
+.imgContainer img {
+    width: 100%;
+    display: block;
+}
+
+#vendors .flexRowChild {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    justify-content: center;
+}
+
+@media (min-width: 1000px) {
+
+    #vendors .imgContainer {
+        min-width: 40%;
+    }
+
+    div#transportationInfo .flexRowChild {
+        min-width: 50%;
+        margin: 5px;
+    }
+
+    .flexRow {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flexRowChild {
+        min-width: 50%;
+        margin-left: auto;
+    }
+
+    #homeBlurb {
+        margin-left: 20px;
+    }
+
+}
+
+@media (min-width: 700px) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    header {
+        display: block;
+    }
+
+    ul#food, ul#craft {
+        column-count: 2;
+        column-gap: 30px;
+    }
+
+}
