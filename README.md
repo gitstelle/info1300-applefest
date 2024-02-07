@@ -1,4 +1,4 @@
-# Ithaca Apple Festival Redesign
+# [Ithaca Apple Festival Redesign](https://gitstelle.github.io/info1300-applefest-website)
 
 This was a project for INFO 1300: Introductory Design and Programming for the Web in spring 2023. We were tasked to redesign the website for the 2022 Ithaca Apple Harvest Festival (Applefest), which currently exists as a single web page from the Downtown Ithaca website.
 
