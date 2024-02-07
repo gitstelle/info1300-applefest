@@ -9,3 +9,7 @@ The [current website](https://www.downtownithaca.com/apple-harvest-festival/#abo
 ) (the website to be redesigned), in 2023:
 
 ![current website](old-website.gif)
+
+## License
+
+[MIT License](https://opensource.org/license/mit/)
